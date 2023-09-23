@@ -1,0 +1,48 @@
+body{
+  display: flex;
+  justify-content: center;
+  background: #c6c98d;
+}
+.App {
+  text-align: center;
+}
+
+.box{
+  background: white;
+  border: 1px solid red;
+  width: 300px;
+  margin: 10px;
+  border-radius: 25px;
+}
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap'); 
+.App input{
+  font-family: 'Roboto',sans-serif;
+  font-size: xx-large;
+  width: 500px;
+  height: 50px;
+  background: none;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 10px;
+  outline: none;
+  text-align: start;
+  color: rgb(0, 0, 0);
+}
+.App button{
+  display: block;
+  width: 100px;
+  height: 50px;
+  background: linear-gradient(rgb(229, 255, 0),rgb(11, 11, 11));
+  border: none;
+  border-radius: 10px;
+  color: aliceblue;
+
+}
+h1{
+  color: blue;
+  text-shadow: 2px 2px 4px #000000;
+}
+p{
+  font-weight: 100;
+  font-style: oblique;
+}
+
